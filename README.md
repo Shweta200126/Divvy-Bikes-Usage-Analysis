@@ -12,6 +12,8 @@ The goal of this project is to use Tableau to visualize the usage patterns of Di
 
 ### Tableau Link - 
    https://public.tableau.com/app/profile/shweta.anand/viz/2_3_side_by_side_17291356619870/Whoaretheriders
+
+   https://public.tableau.com/app/profile/shweta.anand/viz/TopStations_17271951081330/TopStationsDashboard
 <br>
 
 ## Data
