@@ -28,9 +28,9 @@ The data provided contains information on each trip taken on a Divvy bike in 201
 
 • Time of day: Determine the busiest times of day by analyzing the number of trips starting or ending at different times.
 
-• User type: Compare the usage patterns of Customers and Subscribers to determine the difference in their usage patterns.
+• User type: Compare the usage patterns of Members and Casual riders to determine the difference in their usage patterns.
 
-• Gender and age: Analyze the gender and age of Subscribers to determine any demographic trends in bike usage.
+• Gender and age: Analyze the gender and age of Members to determine any demographic trends in bike usage.
 
 ## Visualization
 
@@ -44,9 +44,9 @@ Tableau will be used to create a series of interactive dashboards to visualize t
 
 • Line charts showing the number of trips starting or ending at different times of day
 
-• Bar charts comparing the usage patterns of Customers and Subscribers
+• Bar charts comparing the usage patterns of Casual and Member riders
 
-• Bar charts showing the gender and age distribution of Subscribers.
+• Bar charts showing the gender and age distribution of Members
 
 ## Datasets used in the project
 - Trip data from the Divvy: https://divvy-tripdata.s3.amazonaws.com/index.html
