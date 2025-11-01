@@ -26,31 +26,31 @@ The data provided contains information on each trip taken on a Divvy bike in 201
 
 My analysis uncovered two distinct user profiles with unique needs, leading to two key business recommendations:
 
-**1. Recommendation: Launch a "$15 Day Pass" for Casual Riders**
+### 1. Recommendation: Launch a _$15 Day Pass_ for Casual Riders
 
-The Insight: Casual riders are not commuters. My analysis showed they are primarily leisure users who ride on weekends (peaking at 2 PM) and take very long trips (average 50+ minutes) clustered around tourist spots and the waterfront.
+**The Insight:** Casual riders are not commuters. My analysis showed they are primarily leisure users who ride on weekends (peaking at 2 PM) and take very long trips (average 50+ minutes) clustered around tourist spots and the waterfront.
 
-The Problem: The existing per-minute pricing creates anxiety and a poor user experience for these leisure riders, likely causing many potential customers to abandon the service.
+**The Problem:** The existing per-minute pricing creates anxiety and a poor user experience for these leisure riders, likely causing many potential customers to abandon the service.
 
-The Solution: I proposed a new $15 Day Pass. This simple, flat-fee product aligns perfectly with their leisure behavior, reduces friction, and creates a clear "upsell" path. I projected this new product could boost revenue from this segment by 10%.
+**The Solution:** I proposed a new $15 Day Pass. This simple, flat-fee product aligns perfectly with their leisure behavior, reduces friction, and creates a clear "upsell" path. I projected this new product could boost revenue from this segment by 10%.
 
-**2. Recommendation: Optimize Bike Rebalancing Operations**
+### 2. Recommendation: Optimize Bike Rebalancing Operations
 
-The Insight: My temporal analysis identified Thursday at 5 PM as the absolute peak time for "Member" (commuter) riders, with a massive flow of bikes from business districts to residential hubs.
+**The Insight:** My temporal analysis identified Thursday at 5 PM as the absolute peak time for _Member_ (commuter) riders, with a massive flow of bikes from business districts to residential hubs.
 
-The Problem: Without a plan, this creates a bike shortage at business stations during the 5 PM rush, leading to lost rides and frustrated members.
+**The Problem:** Without a plan, this creates a bike shortage at business stations during the 5 PM rush, leading to lost rides and frustrated members.
 
-The Solution: I recommended a dynamic rebalancing strategy for the operations team, specifically to restock high-demand business district stations (like "Canal St & Adams St") just before the 4:30-5:00 PM peak.
+**The Solution:** I recommended a dynamic rebalancing strategy for the operations team, specifically to restock high-demand business district stations (like "Canal St & Adams St") just before the 4:30-5:00 PM peak.
 
 ## Visualizations & Dashboards
 
 I built a series of interactive Tableau dashboards to find and present these insights:
 
-**Cohort Analysis Dashboard:** A side-by-side comparison of "Member" vs. "Casual" riders, showing their different trip durations, day-of-week preferences, and peak times.
+**Cohort Analysis Dashboard:** A side-by-side comparison of _Member_ vs. _Casual_ riders, showing their different trip durations, day-of-week preferences, and peak times.
 
 **Geospatial Heatmap:** A map dashboard visualizing that casual trips originate from tourist hubs, while member trips follow clear commute corridors.
 
-**Temporal "Peak Times" Dashboard:** A line chart identifying the precise "commuter rush" (Thursday 5 PM) and the "leisure peak" (Saturday 2 PM).
+**Temporal _Peak Times_ Dashboard:** A line chart identifying the precise _commuter rush_ (Thursday 5 PM) and the _leisure peak_ (Saturday 2 PM).
 
 ## Tools Used
 
