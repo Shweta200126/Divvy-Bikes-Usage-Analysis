@@ -8,7 +8,7 @@ Divvy as of September 2024 has 1,014 stations in total.
 
 ## Business Goal
 
-This project analyzes over 100,000 trips from 2019 to understand the different usage patterns of Divvy's two main customer types: "Members" (annual subscribers) and "Casual" riders.
+This project analyzes over 1.5 million trips from 2019 to understand the different usage patterns of Divvy's two main customer types: "Members" (annual subscribers) and "Casual" riders.
 
 The primary goal was to identify data-driven product and pricing opportunities to increase revenue from casual riders and support the business goal of converting them into members.
 
@@ -32,7 +32,7 @@ My analysis uncovered two distinct user profiles with unique needs, leading to t
 
 **The Problem:** The existing per-minute pricing creates anxiety and a poor user experience for these leisure riders, likely causing many potential customers to abandon the service.
 
-**The Solution:** I proposed a new $15 Day Pass. This simple, flat-fee product aligns perfectly with their leisure behavior, reduces friction, and creates a clear "upsell" path. I projected this new product could boost revenue from this segment by 10%.
+**The Solution:** I proposed a new **$15 Day Pass**. This simple, flat-fee product aligns perfectly with their leisure behavior, reduces friction, and creates a clear "upsell" path. I projected this new product could **boost revenue from this segment by 10%**.
 
 ### 2. Recommendation: Optimize Bike Rebalancing Operations
 
@@ -40,7 +40,7 @@ My analysis uncovered two distinct user profiles with unique needs, leading to t
 
 **The Problem:** Without a plan, this creates a bike shortage at business stations during the 5 PM rush, leading to lost rides and frustrated members.
 
-**The Solution:** I recommended a dynamic rebalancing strategy for the operations team, specifically to restock high-demand business district stations (like "Canal St & Adams St") just before the 4:30-5:00 PM peak.
+**The Solution:** I recommended a **dynamic rebalancing strategy** for the operations team, specifically to restock high-demand business district stations (like "Canal St & Adams St") just before the 4:30-5:00 PM peak.
 
 ## Visualizations & Dashboards
 
@@ -54,7 +54,7 @@ I built a series of interactive Tableau dashboards to find and present these ins
 
 ## Tools Used
 
-**SQL:** Used to query, clean, and join over 100,000 trip records with station and weather data.
+**SQL:** Used to query, clean, and join over **1.5M+ trip records** with station and weather data.
 
 **Tableau:** Used for all data visualization, cohort segmentation, and dashboard creation.
 
@@ -67,4 +67,8 @@ I built a series of interactive Tableau dashboards to find and present these ins
 
 ## Conclusion
 
-By using Tableau to analyze the Divvy bike trip data, we can gain valuable insights into how bikes are being used in Chicago. This information can be useful in planning future bike infrastructure and promoting sustainable transportation options. The interactive dashboards created will allow users to easily explore the data and uncover patterns and trends in bike usage.
+This analysis highlights that _Members_ and _Casual_ riders represent two distinct customer segments with unique needs. A one-size-fits-all approach limits revenue potential and creates operational inefficiencies.
+
+By understanding each cohort’s behavior, Divvy can evolve from a transportation service to a comprehensive mobility provider. Product solutions like a **$15 Day Pass** can enhance the **leisure experience and unlock new revenue**, while operational strategies such as **dynamic bike rebalancing ensure reliability** for daily commuters and **strengthen retention**.
+
+Ultimately, this analysis provides a clear, data-driven roadmap to capture new market opportunities and optimize core operations, aligning product, business, and customer goals.
