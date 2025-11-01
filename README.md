@@ -6,9 +6,11 @@ Divvy is a bike-sharing system in Chicago, owned by the [Chicago Department of T
 
 Divvy as of September 2024 has 1,014 stations in total.
 
-## Project Goal
+## Business Goal
 
-The goal of this project is to use Tableau to visualize the usage patterns of Divvy bikes in Chicago in 2019. By analyzing the trip data provided, we can gain insights into when, where, and how bikes are being used.
+This project analyzes over 100,000 trips from 2019 to understand the different usage patterns of Divvy's two main customer types: "Members" (annual subscribers) and "Casual" riders.
+
+The primary goal was to identify data-driven product and pricing opportunities to increase revenue from casual riders and support the business goal of converting them into members.
 
 ### Tableau Link - 
    [Who are the riders?](https://public.tableau.com/app/profile/shweta.anand/viz/2_3_side_by_side_17291356619870/Whoaretheriders)
@@ -20,33 +22,41 @@ The goal of this project is to use Tableau to visualize the usage patterns of Di
 
 The data provided contains information on each trip taken on a Divvy bike in 2019, including the trip start and end time, the starting and ending station, and the rider demographics. The data has been pre-processed to exclude trips without a start or end date.
 
-## Data Analysis
+## Key Insights & Actionable Recommendations
 
-• Trip duration: Analyze the distribution of trip durations to determine the average and median trip lengths.
+My analysis uncovered two distinct user profiles with unique needs, leading to two key business recommendations:
 
-• Station usage: Determine the most popular starting and ending stations by analyzing the number of trips originating or terminating at each station.
+**1. Recommendation: Launch a "$15 Day Pass" for Casual Riders**
 
-• Time of day: Determine the busiest times of day by analyzing the number of trips starting or ending at different times.
+The Insight: Casual riders are not commuters. My analysis showed they are primarily leisure users who ride on weekends (peaking at 2 PM) and take very long trips (average 50+ minutes) clustered around tourist spots and the waterfront.
 
-• User type: Compare the usage patterns of Members and Casual riders to determine the difference in their usage patterns.
+The Problem: The existing per-minute pricing creates anxiety and a poor user experience for these leisure riders, likely causing many potential customers to abandon the service.
 
-• Gender and age: Analyze the gender and age of Members to determine any demographic trends in bike usage.
+The Solution: I proposed a new $15 Day Pass. This simple, flat-fee product aligns perfectly with their leisure behavior, reduces friction, and creates a clear "upsell" path. I projected this new product could boost revenue from this segment by 10%.
 
-## Visualization
+**2. Recommendation: Optimize Bike Rebalancing Operations**
 
-Tableau will be used to create a series of interactive dashboards to visualize the data. Dashboards will include:
+The Insight: My temporal analysis identified Thursday at 5 PM as the absolute peak time for "Member" (commuter) riders, with a massive flow of bikes from business districts to residential hubs.
 
-• Map of Chicago with starting and ending stations highlighted
+The Problem: Without a plan, this creates a bike shortage at business stations during the 5 PM rush, leading to lost rides and frustrated members.
 
-• Histogram of trip duration
+The Solution: I recommended a dynamic rebalancing strategy for the operations team, specifically to restock high-demand business district stations (like "Canal St & Adams St") just before the 4:30-5:00 PM peak.
 
-• Bar charts showing the number of trips starting or ending at each station
+## Visualizations & Dashboards
 
-• Line charts showing the number of trips starting or ending at different times of day
+I built a series of interactive Tableau dashboards to find and present these insights:
 
-• Bar charts comparing the usage patterns of Casual and Member riders
+**Cohort Analysis Dashboard:** A side-by-side comparison of "Member" vs. "Casual" riders, showing their different trip durations, day-of-week preferences, and peak times.
 
-• Bar charts showing the gender and age distribution of Members
+**Geospatial Heatmap:** A map dashboard visualizing that casual trips originate from tourist hubs, while member trips follow clear commute corridors.
+
+**Temporal "Peak Times" Dashboard:** A line chart identifying the precise "commuter rush" (Thursday 5 PM) and the "leisure peak" (Saturday 2 PM).
+
+## Tools Used
+
+**SQL:** Used to query, clean, and join over 100,000 trip records with station and weather data.
+
+**Tableau:** Used for all data visualization, cohort segmentation, and dashboard creation.
 
 ## Datasets used in the project
 - Trip data from the Divvy: https://divvy-tripdata.s3.amazonaws.com/index.html
